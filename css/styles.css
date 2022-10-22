@@ -877,3 +877,139 @@ footer {
   background-color: ;
 } */
 
+.modal {
+  padding: 40px;
+}
+
+.modal-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.modal-form-capture {
+text-align: center;
+margin-bottom: 12px;
+
+font-weight: 700;
+font-size: 20px;
+letter-spacing: 0.03em;
+line-height: 1.15;
+color: var(--title-text-color)
+}
+
+.modal-form-input-desc {
+  display: block;
+  
+  margin-bottom: 4px;
+
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.01em;
+  color: var(--primary-text-color);
+}
+
+.modal-form-input {
+  width: 100%;
+  height: 40px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+border-radius: 4px;
+  padding-left: 12px;
+  transition: border-color var(--transition-dur-and-func);
+}
+
+.modal-form-input:focus {
+  outline: none;
+  border-color: var(--accent-color);  
+}
+
+.modal-form-icon {
+  display: block;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateY(-50%);
+
+  width: ;
+  height: ;
+  background-color: ;
+  transition: background-color var(--transition-dur-and-func);
+
+}
+
+.modal-form-input-wrapper {
+  position: relative;
+}
+
+
+.modal-form-input:focus + .modal-form-icon {
+  background-color: #2196f3;
+}
+
+.modal-form-message {
+  width: ;
+  height: ;
+  resize: none;
+  border: ;
+  border-radius: ;
+  padding: ;
+  transition: ;
+  
+  line-height: :
+}
+
+.modal-form-message::placeholder {
+  text-transform: uppercase;
+  } 
+
+.modal-form-message:focus {
+  outline: none;
+  border-color: ;
+}
+
+.modal-form-own-checkbox {
+  border: ;
+  border-radius: ;
+padding: ;
+cursor: pointer;
+margin-right: ;
+}
+
+.modal-form-own-checkbox-icon {
+  fill: ;
+  display: none;
+}
+
+.modal-form-checkbox:focus + .modal-form-own-checkbox {
+outline: ;
+}
+
+.modal-form-checkbox:checked + .modal-form-own-checkbox {
+background-color: ;
+border-color: ;
+}
+
+.modal-form-checkbox:checked + .modal-form-own-checkbox .modal-form-own-checkbox-icon {
+  display: block;
+}
+
+.modal-form-checkbox-wrapper {
+  display: flex;
+  align-items: center;
+  margin-bottom: ;
+}
+
+.modal-form-submit {
+  align-self: center;
+  min-width: ;
+  padding: ;
+  font-weight: ;
+  font-size: ;
+line-height: ;
+letter-spacing: ;
+  text-transform: ;
+  border: ;
+  border-radius: ;
+  background-color: ;
+  transition: color          ;
+}
