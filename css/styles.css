@@ -891,6 +891,7 @@ footer {
   border-radius: 4px;
   padding-left: 16px;
   transition: border-color var(--transition-dur-and-func);
+  color: var(--primary-background-color);
 }
 
 .subscribe-form-submit {
@@ -898,7 +899,7 @@ footer {
   justify-content: center;
   align-items: center;
   margin-left: 12px;
- 
+
   min-width: 200px;
   min-height: 50px;
   padding: 13px, 28px;
@@ -914,17 +915,18 @@ footer {
   border-radius: 4px;
   cursor: pointer;
 
-  /* transition: color; */
+  transition: border-color var(--transition-dur-and-func);
+}
+
+.subscribe-form-input::placeholder {
+  font-size: 16px;
+  line-height: 1.25;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
 }
 
 .subscribe-form-icon {
   margin-left: 10px;
-}
-
-.subscribe-form-submit:hover,
-.subscribe-form-submit: focus {
-  cursor: pointer;
-
 }
 
 .subscribe-form-input:focus {
@@ -1044,7 +1046,7 @@ footer {
 }
 
 .modal-form-own-checkbox-icon {
-   display: none;
+  display: none;
 }
 
 .modal-form-checkbox {
