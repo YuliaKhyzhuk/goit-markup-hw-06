@@ -917,7 +917,7 @@ footer {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   cursor: pointer;
-  transition: box-shadow var(--transition-dur-and-func);
+  /* transition: box-shadow var(--transition-dur-and-func); */
 }
 
 .subscribe-form-input::placeholder {
@@ -936,9 +936,9 @@ footer {
   border-color: var(--accent-color);
 }
 
-.subscribe-form-submit:focus {
+/* .subscribe-form-submit:focus {
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-}
+} */
 /* modal form */
 
 .modal {
@@ -952,6 +952,7 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 
 .modal-form-capture {
   text-align: center;
+  margin-top: 0;
   margin-bottom: 12px;
 
   font-weight: 700;
@@ -1040,7 +1041,7 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 .modal-form-checkbox-wrapper {
   display: flex;
   align-items: center;
-  margin-bottom: 34px;
+  margin-bottom: 30px;
 }
 
 .modal-form-own-checkbox {
@@ -1076,18 +1077,19 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 .modal-form-submit {
   align-self: center;
 
-  min-width: 200px;
+  /* min-width: 200px; */
 
-  padding: 10px, 52px;
+  padding: 10px 52px;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
   color: var(--primary-background-color);
   background-color: var(--accent-color);
-  border-color: var(--accent-color);
+  /* border-color: var(--accent-color); */
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  border: none;
 }
 
 .modal-form-submit:hover,
