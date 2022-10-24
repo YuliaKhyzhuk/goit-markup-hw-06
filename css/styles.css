@@ -1039,7 +1039,7 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 }
 
 .modal-form-checkbox-wrapper {
-  display: flex;
+  /* display: flex; */
   align-items: center;
   margin-bottom: 30px;
 }
@@ -1072,6 +1072,13 @@ box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 
 .modal-form-checkbox:checked + .modal-form-own-checkbox .modal-form-own-checkbox-icon {
   display: block;
+}
+
+.modal-form-link {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--accent-color);
 }
 
 .modal-form-submit {
